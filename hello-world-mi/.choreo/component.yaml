@@ -21,7 +21,7 @@ endpoints:
     # Accepted values: Project|Organization|Public(Default).
     networkVisibilities: 
       - Public
-    schemaFilePath: /swagger.yaml
+    schemaFilePath: swagger.yaml
   
   - name: mi-admin-service
     # +optional Display name for the endpoint.
@@ -39,6 +39,6 @@ endpoints:
     # Accepted values: Project|Organization|Public(Default).
     networkVisibilities: 
       - Public
-    schemaFilePath: /swagger.yaml
+    schemaFilePath: swagger.yaml
 
    
