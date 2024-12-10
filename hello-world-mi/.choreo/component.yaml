@@ -7,7 +7,7 @@ endpoints:
   # This name will be used when generating the managed API
   - name: mi-hellow-world
     # +optional Display name for the endpoint.
-    displayName: Mi test service for Admins
+    displayName: mi-hellow-world
     # +required Service section has the user service endpoint details
     service:
       # +optional Context (base path) of the API that gets exposed via the endpoint.
@@ -25,7 +25,7 @@ endpoints:
   
   - name: mi-admin-service
     # +optional Display name for the endpoint.
-    displayName: Mi test service for Admins
+    displayName: mi-admin-service
     # +required Service section has the user service endpoint details
     service:
       # +optional Context (base path) of the API that gets exposed via the endpoint.
